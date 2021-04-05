@@ -1,4 +1,4 @@
-module github.com/vulkan-go/demos
+module github.com/neurlang/demos
 
 go 1.15
 
