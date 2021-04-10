@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vulkan-go/demos/vulkaninfo"
+	"github.com/neurlang/demos/vulkaninfo"
 	"github.com/vulkan-go/glfw/v3.3/glfw"
 	vk "github.com/vulkan-go/vulkan"
 )

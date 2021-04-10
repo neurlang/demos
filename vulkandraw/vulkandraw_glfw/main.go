@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/vulkan-go/demos/vulkandraw"
+	"github.com/neurlang/demos/vulkandraw"
 	"github.com/vulkan-go/glfw/v3.3/glfw"
 	vk "github.com/vulkan-go/vulkan"
 	"github.com/xlab/closer"

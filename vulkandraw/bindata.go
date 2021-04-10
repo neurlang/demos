@@ -272,12 +272,12 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"shaders": &bintree{nil, map[string]*bintree{
-		".DS_Store":    &bintree{shadersDs_store, map[string]*bintree{}},
-		"tri-frag.spv": &bintree{shadersTriFragSpv, map[string]*bintree{}},
-		"tri-vert.spv": &bintree{shadersTriVertSpv, map[string]*bintree{}},
-		"tri.frag":     &bintree{shadersTriFrag, map[string]*bintree{}},
-		"tri.vert":     &bintree{shadersTriVert, map[string]*bintree{}},
+	"shaders": {nil, map[string]*bintree{
+		".DS_Store":    {shadersDs_store, map[string]*bintree{}},
+		"tri-frag.spv": {shadersTriFragSpv, map[string]*bintree{}},
+		"tri-vert.spv": {shadersTriVertSpv, map[string]*bintree{}},
+		"tri.frag":     {shadersTriFrag, map[string]*bintree{}},
+		"tri.vert":     {shadersTriVert, map[string]*bintree{}},
 	}},
 }}
 

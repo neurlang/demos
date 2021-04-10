@@ -5,8 +5,8 @@ import (
 	"log"
 	"unsafe"
 
+	lin "github.com/neurlang/linmath"
 	vk "github.com/vulkan-go/vulkan"
-	"github.com/xlab/linmath"
 )
 
 // enableDebug is disabled by default since VK_EXT_debug_report

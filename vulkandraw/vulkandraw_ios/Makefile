@@ -1,5 +1,5 @@
 WORK ?= $(shell pwd)
-PACKAGE ?= github.com/vulkan-go/demos/vulkandraw/vulkandraw_ios
+PACKAGE ?= github.com/neurlang/demos/vulkandraw/vulkandraw_ios
 MOLTEN_FW ?= /Users/xlab/Documents/dev/Molten-0.13.0/MoltenVK/iOS/
 
 CC ?= $(shell xcrun --sdk iphoneos --find clang)

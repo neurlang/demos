@@ -9,9 +9,9 @@ import (
 	"log"
 	"unsafe"
 
-	as "github.com/vulkan-go/asche"
+	as "github.com/neurlang/asche"
+	lin "github.com/neurlang/linmath"
 	vk "github.com/vulkan-go/vulkan"
-	lin "github.com/xlab/linmath"
 )
 
 func NewSpinningCube(spinAngle float32) *SpinningCube {
