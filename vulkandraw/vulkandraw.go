@@ -5,7 +5,7 @@ import (
 	"log"
 	"unsafe"
 
-	"github.com/neurlang/linmath"
+	"github.com/xlab/linmath"
 	vk "github.com/vulkan-go/vulkan"
 )
 

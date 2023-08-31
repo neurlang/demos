@@ -3,7 +3,7 @@ package vulkancube
 import (
 	"unsafe"
 
-	lin "github.com/neurlang/linmath"
+	lin "github.com/xlab/linmath"
 )
 
 type vkTexCubeUniform struct {

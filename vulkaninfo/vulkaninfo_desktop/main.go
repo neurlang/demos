@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/neurlang/demos/vulkaninfo"
-	"github.com/neurlang/glfw/v3.3/glfw"
+	"github.com/go-gl/glfw/v3.3/glfw"
 	vk "github.com/vulkan-go/vulkan"
 )
 

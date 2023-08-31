@@ -9,8 +9,8 @@ import (
 	"log"
 	"unsafe"
 
-	as "github.com/neurlang/asche"
-	lin "github.com/neurlang/linmath"
+	as "github.com/vulkan-go/asche"
+	lin "github.com/xlab/linmath"
 	vk "github.com/vulkan-go/vulkan"
 )
 

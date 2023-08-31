@@ -5,9 +5,9 @@ import (
 	"runtime"
 	"time"
 
-	as "github.com/neurlang/asche"
+	as "github.com/vulkan-go/asche"
 	"github.com/neurlang/demos/vulkancube"
-	"github.com/neurlang/glfw/v3.3/glfw"
+	"github.com/go-gl/glfw/v3.3/glfw"
 	vk "github.com/vulkan-go/vulkan"
 	"github.com/xlab/closer"
 )

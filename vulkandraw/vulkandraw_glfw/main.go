@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/neurlang/demos/vulkandraw"
-	"github.com/neurlang/glfw/v3.3/glfw"
+	"github.com/go-gl/glfw/v3.3/glfw"
 	vk "github.com/vulkan-go/vulkan"
 	"github.com/xlab/closer"
 )

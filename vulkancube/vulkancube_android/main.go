@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	as "github.com/neurlang/asche"
+	as "github.com/vulkan-go/asche"
 	"github.com/neurlang/demos/vulkancube"
 	vk "github.com/vulkan-go/vulkan"
 	"github.com/xlab/android-go/android"
